@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stimulant Energy - Boost Your Performance</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <img src="dog.jpeg" alt="Crazy Dog Logo" class="logo-img">
+                <h1 class="logo">Stimulant<span>Energy</span></h1>
+                <ul class="nav-links">
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="index2.html">Products</a></li>
+                    <li><a href="index3.html">About</a></li>
+                    <li><a href="index4.html">Contact</a></li>
+                </ul>
+                <!-- 카트 아이콘 추가 -->
+                <div class="cart-icon">
+                    <img src="cart-icon.png" alt="Cart" onclick="viewCart()">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Unleash Your Full Potential</h2>
+            <p>Our top-quality stimulants keep you sharp, energized, and ready for anything.</p>
+            <button onclick="scrollToProducts()">Shop Now</button>
+        </div>
+    </section>
+
+
+
+    <section id="products">
+        <div class="container">
+            <h2 class="section-title">Our Best Sellers</h2>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="Energy1.png" alt="Stimulant X">
+                    <h3>Stimulant X</h3>
+                    <p>Supercharge your focus and energy for peak performance.</p>
+                    <button onclick="addToCart('Stimulant X')">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="Energy2.png" alt="Focus Pro">
+                    <h3>Focus Pro</h3>
+                    <p>Unlock enhanced mental clarity for any task.</p>
+                    <button onclick="addToCart('Focus Pro')">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="Energy3.png" alt="Energy Burst">
+                    <h3>Energy Burst</h3>
+                    <p>Power through your day with an all-day energy boost.</p>
+                    <button onclick="addToCart('Energy Burst')">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Stimulant Energy | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
