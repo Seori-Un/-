@@ -12,7 +12,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         formMessage.textContent = "All fields are required!";
         formMessage.style.color = "red";
     } else {
-        formMessage.textContent = "아앗... 저런... 실제로 메세지가 보내지지는 않아요. 헛수고하셨군요! :< ";
+        formMessage.textContent = "실제로 메세지가 보내지지는 않아요. 그래도 관심 고마워요! xD ";
         formMessage.style.color = "green";
 
         // 폼 제출 후 초기화 (실제 서버로 보내지는 기능은 추가되지 않음)
